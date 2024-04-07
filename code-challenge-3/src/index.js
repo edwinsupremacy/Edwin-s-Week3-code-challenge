@@ -1,3 +1,4 @@
+//got stuck using fetch hence used this long approach which works perfectly
 let ul = document.getElementById("films")
 
 let movie1 = document.createElement('li');
