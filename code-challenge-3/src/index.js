@@ -83,7 +83,7 @@ movie3.addEventListener('click', function () {
     description.textContent = 'An inventor comes up with a time machine, but must prevent its abuse at the hands of an evil C.E.O.';
      
     let movieTitle=document.getElementById('title');
-    movieTitle.textContent=movie1.textContent;
+    movieTitle.textContent=movie2.textContent;
 
     let runTime = document.getElementById('runtime')
     runTime.textContent='93 minutes';
@@ -117,7 +117,7 @@ movie4.addEventListener('click', function () {
     description.textContent = 'A young man meets a farm girl who is actually a witch.';
      
     let movieTitle=document.getElementById('title');
-    movieTitle.textContent=movie1.textContent;
+    movieTitle.textContent=movie4.textContent;
 
     let runTime = document.getElementById('runtime')
     runTime.textContent='101 minutes';
@@ -151,7 +151,7 @@ movie5.addEventListener('click', function () {
     description.textContent = 'The Martians kidnap Santa Claus because there is nobody on Mars to give their children presents';
      
     let movieTitle=document.getElementById('title');
-    movieTitle.textContent=movie1.textContent;
+    movieTitle.textContent=movie5.textContent;
 
     let runTime = document.getElementById('runtime')
     runTime.textContent='96 minutes';
@@ -185,7 +185,7 @@ movie6.addEventListener('click', function () {
     description.textContent = 'A young man is transformed into a hideous "moon beast" due to a meteor fragment lodged in his body.';
      
     let movieTitle=document.getElementById('title');
-    movieTitle.textContent=movie1.textContent;
+    movieTitle.textContent=movie6.textContent;
 
     let runTime = document.getElementById('runtime')
     runTime.textContent='112 minutes';
@@ -219,7 +219,7 @@ movie7.addEventListener('click', function () {
     description.textContent = 'A woman seeks revenge on her former lover, who owns a skydiving business.';
      
     let movieTitle=document.getElementById('title');
-    movieTitle.textContent=movie1.textContent;
+    movieTitle.textContent=movie7.textContent;
 
     let runTime = document.getElementById('runtime')
     runTime.textContent='94 minutes';
@@ -253,7 +253,7 @@ movie8.addEventListener('click', function () {
     description.textContent = 'On an isolated island, a small group of people are terrorized by giant voracious shrews in the midst of a hurricane.';
      
     let movieTitle=document.getElementById('title');
-    movieTitle.textContent=movie1.textContent;
+    movieTitle.textContent=movie8.textContent;
 
     let runTime = document.getElementById('runtime')
     runTime.textContent='115 minutes';
@@ -287,7 +287,7 @@ movie9.addEventListener('click', function () {
     description.textContent = 'A saboteur posing as a scientist strives to destroy the world`s first space station.';
      
     let movieTitle=document.getElementById('title');
-    movieTitle.textContent=movie1.textContent;
+    movieTitle.textContent=movie9.textContent;
 
     let runTime = document.getElementById('runtime')
     runTime.textContent='99 minutes';
@@ -321,7 +321,7 @@ movie10.addEventListener('click', function () {
     description.textContent = 'Giant spiders from another dimension invade Wisconsin.';
      
     let movieTitle=document.getElementById('title');
-    movieTitle.textContent=movie1.textContent;
+    movieTitle.textContent=movie10.textContent;
 
     let runTime = document.getElementById('runtime')
     runTime.textContent='122 minutes';
@@ -355,7 +355,7 @@ movie11.addEventListener('click', function () {
     description.textContent = 'A group of swingin teens take time out from having fun in the sun to try to foil a group of crooks searching for a stolen scroll.';
      
     let movieTitle=document.getElementById('title');
-    movieTitle.textContent=movie1.textContent;
+    movieTitle.textContent=movie11.textContent;
 
     let runTime = document.getElementById('runtime')
     runTime.textContent='104 minutes';
@@ -389,7 +389,7 @@ movie12.addEventListener('click', function () {
     description.textContent = 'A series of murders in Michigan lead an American secret agent to Amsterdam, where he uncovers a plot to imperil the world with a potent new drug.';
      
     let movieTitle=document.getElementById('title');
-    movieTitle.textContent=movie1.textContent;
+    movieTitle.textContent=movie12.textContent;
 
     let runTime = document.getElementById('runtime')
     runTime.textContent='104 minutes';
@@ -423,7 +423,7 @@ movie13.addEventListener('click', function () {
     description.textContent = 'A stock car driver goes undercover as the wheel man for a motorcycle gang';
      
     let movieTitle=document.getElementById('title');
-    movieTitle.textContent=movie1.textContent;
+    movieTitle.textContent=movie13.textContent;
 
     let runTime = document.getElementById('runtime')
     runTime.textContent='100 minutes';
@@ -457,7 +457,8 @@ movie14.addEventListener('click', function () {
     description.textContent = 'International man of mystery Diabolik and his lover pull off heist after heist, all while European cops led by Inspector Ginko and envious mobsters led by Ralph Valmont are closing in on them.';
      
     let movieTitle=document.getElementById('title');
-    movieTitle.textContent=movie1.textContent;
+    
+    movieTitle.textContent=movie14.textContent;
 
     let runTime = document.getElementById('runtime')
     runTime.textContent='111 minutes';
@@ -491,7 +492,7 @@ movie15.addEventListener('click', function () {
     description.textContent = 'Delinquent teen-agers ingest a substance and grow thirty feet tall, then proceed to take over a small town.';
      
     let movieTitle=document.getElementById('title');
-    movieTitle.textContent=movie1.textContent;
+    movieTitle.textContent=movie15.textContent;
 
     let runTime = document.getElementById('runtime')
     runTime.textContent='98 minutes';
@@ -514,23 +515,4 @@ movie15.addEventListener('click', function () {
         })
 });
 ul.appendChild(movie15);
-
-// const movieTitle=document.getElementById("movie-items");
-// const getTitles=function(){
-//     fetch("http://localhost:3000/")
-//     .then(res=>res.json())
-//     .then(movies=>{
-//         console.log(movies);
-//         movies.forEach(movie => {
-//             const titleElement= document.createElement('div');
-//             titleElement.textContent=movie.title;
-//             movieTitle.appendChild(titleElement);
-//         });
-            
-//         })
-//     .catch(error => {
-//         console.error('Error fetching data:',error);
-//     });
-// }
-// getTitles()
 
